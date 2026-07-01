@@ -1,0 +1,45 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local media and OCR outputs
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.flv
+*.wmv
+*.srt
+*.vtt
+*.ass
+*.txt
+*.json
+!hansub_project.example.json
+
+# PaddleOCR / model cache and generated assets
+*.onnx
+*.pdmodel
+*.pdiparams
+*.pdparams
+*.pdopt
+output/
+models/
+.cache/

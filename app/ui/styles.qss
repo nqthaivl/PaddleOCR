@@ -1,0 +1,232 @@
+﻿QMainWindow,
+QDialog {
+    background: #eef5ff;
+    color: #172033;
+    font-family: "Segoe UI", "Microsoft YaHei", Arial, sans-serif;
+    font-size: 13px;
+}
+
+QWidget#AppRoot {
+    background: #eef5ff;
+}
+
+QWidget {
+    color: #172033;
+}
+
+QSplitter {
+    background: #eef5ff;
+}
+
+QSplitter::handle {
+    background: #d8e7fb;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+}
+
+QFrame#TopBar,
+QFrame#SidePanel,
+QFrame#BottomBar {
+    background: #ffffff;
+    border: 1px solid #cfe0f5;
+    border-radius: 12px;
+}
+
+QFrame#TopBar {
+    border-top: 4px solid #3b82f6;
+}
+
+QFrame#SidePanel {
+    border-left: 4px solid #60a5fa;
+}
+
+QFrame#VideoPanel {
+    background: #f8fbff;
+    border: 1px solid #cfe0f5;
+    border-radius: 12px;
+}
+
+QLabel {
+    color: #172033;
+    background: transparent;
+}
+
+QLabel#TitleLabel {
+    color: #0f172a;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+QLabel#SectionLabel {
+    color: #1d4ed8;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+QLabel#MutedLabel,
+QLabel#MetaLabel {
+    color: #607089;
+}
+
+QPushButton {
+    background: #f8fbff;
+    color: #172033;
+    border: 1px solid #bfd1e8;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+QPushButton:hover {
+    border-color: #3b82f6;
+    background: #eaf3ff;
+}
+
+QPushButton:pressed {
+    background: #dbeafe;
+}
+
+QPushButton:disabled {
+    color: #94a3b8;
+    background: #edf2f7;
+    border-color: #dbe3ee;
+}
+
+QPushButton#PrimaryButton {
+    background: #2563eb;
+    color: #ffffff;
+    border: 1px solid #2563eb;
+    font-weight: 700;
+}
+
+QPushButton#PrimaryButton:hover {
+    background: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+QPushButton#DangerButton {
+    background: #fff1f2;
+    color: #be123c;
+    border-color: #fecdd3;
+    font-weight: 600;
+}
+
+QPushButton#DangerButton:hover {
+    background: #ffe4e6;
+}
+
+QLineEdit,
+QComboBox,
+QSpinBox,
+QDoubleSpinBox {
+    background: #ffffff;
+    color: #111827;
+    border: 1px solid #bfd1e8;
+    border-radius: 8px;
+    padding: 8px 10px;
+    selection-background-color: #bfdbfe;
+    selection-color: #111827;
+}
+
+QLineEdit:focus,
+QComboBox:focus,
+QSpinBox:focus,
+QDoubleSpinBox:focus {
+    border: 1px solid #2563eb;
+    background: #ffffff;
+}
+
+QComboBox::drop-down {
+    border: none;
+    width: 28px;
+}
+
+QComboBox QAbstractItemView {
+    background: #ffffff;
+    color: #111827;
+    border: 1px solid #bfd1e8;
+    selection-background-color: #dbeafe;
+    selection-color: #111827;
+    outline: none;
+    padding: 4px;
+}
+
+QCheckBox {
+    color: #172033;
+    spacing: 8px;
+    padding: 2px 0;
+    background: transparent;
+}
+
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #9eb4d0;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+QCheckBox::indicator:checked {
+    background: #2563eb;
+    border-color: #2563eb;
+}
+
+QSlider::groove:horizontal {
+    height: 7px;
+    background: #dbe7f7;
+    border-radius: 4px;
+}
+
+QSlider::sub-page:horizontal {
+    background: #60a5fa;
+    border-radius: 4px;
+}
+
+QSlider::handle:horizontal {
+    background: #2563eb;
+    width: 18px;
+    height: 18px;
+    margin: -6px 0;
+    border-radius: 9px;
+}
+
+QTableWidget {
+    background: #ffffff;
+    alternate-background-color: #f8fbff;
+    color: #111827;
+    gridline-color: #e4edf8;
+    border: 1px solid #cfe0f5;
+    border-radius: 10px;
+    selection-background-color: #dbeafe;
+    selection-color: #111827;
+}
+
+QHeaderView::section {
+    background: #eaf3ff;
+    color: #1e3a8a;
+    border: none;
+    padding: 9px;
+    font-weight: 700;
+}
+
+QProgressBar {
+    background: #dbe7f7;
+    border: 1px solid #bfd1e8;
+    border-radius: 8px;
+    text-align: center;
+    color: #172033;
+    min-height: 18px;
+}
+
+QProgressBar::chunk {
+    background: #2563eb;
+    border-radius: 7px;
+}
+
+QTextEdit {
+    background: #f8fbff;
+    color: #172033;
+    border: 1px solid #cfe0f5;
+    border-radius: 10px;
+    padding: 6px;
+}
